@@ -324,11 +324,10 @@ public class volVis
 		}
 	}
 
-	//The main function should not really be modified, except maybe for setting the zoom value and res values
 	public static void main(String[] args) 
 	{
 		//Args: width height depth header_size isovalue projection_axis direction
-		//A command line example: java Lab2 256 256 225 62 95 0 false
+		//A command line example: java vis 256 256 225 62 95 0 false
 		Volume v=new Volume();
 		v.ReadData("./bighead_den256X256X225B62H.raw",Integer.parseInt(args[0]),Integer.parseInt(args[1]),Integer.parseInt(args[2]),Integer.parseInt(args[3]));
 		v.SwapZAxis(Integer.parseInt(args[5]));
