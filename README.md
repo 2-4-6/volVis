@@ -8,7 +8,5 @@ with 2562 pixels encoded as 8-bit Grayscale unsigned byte data.
 
 ## Results
 
-![Alt test](contour.tiff) </br>
-![Alt test](contour7.tiff) </br>
-![Alt test](iso.tiff) </br>
-![Alt test](iso7.tiff) </br>
+![Alt test](contour.png) </br>
+![Alt test](iso.png) </br>
