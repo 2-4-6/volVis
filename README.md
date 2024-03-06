@@ -10,7 +10,6 @@ with 2562 pixels encoded as 8-bit Grayscale unsigned byte data.
 Args: width height depth header_size isovalue projection_axis direction
 ```
 java vis 256 256 225 62 95 0 false
-
 ```
 
 ## Results
